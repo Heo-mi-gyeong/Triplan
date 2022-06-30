@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+   <mapper namespace="mapperInterface.LikeReMapper">
+  
+    <select id="hotMax" resultType="vo.HotVO">
+  	select * from hot order by count desc limit 4
+  	</select>
+  	<select id="hotSelect" resultType="vo.HotVO">
+  	select * from hot where areaCode=#{areaCode} and sigunguCode=#{sigunguCode}
+  	</select>
+  	<insert id="hotInsert">
+  	insert into hot values(#{areaName},#{areaCode},#{sigunguCode},#{sigunguName},1)
+  	</insert>
+  	<update id="hotUpdate">
+  	update hot set count=#{count} where areaCode=#{areaCode} and sigunguCode=#{sigunguCode}
+  	</update>
+     <select id="likeSelect" resultType="vo.LikeReVO"> 
+       select * from tlike where id=#{id} and contentTypeId=#{contentTypeId} and contentId=#{contentId}
+    </select>
+    <select id="likeList" resultType="vo.LikeReVO"> 
+       select * from tlike where id=#{id} and contentTypeId=#{contentTypeId}
+    </select>
+    <insert id="likeInsert"> 
+       insert into tlike values (#{id},#{contentTypeId},#{contentId})
+    </insert>
+    <delete id="likeDelete">
+    delete from tlike where id=#{id} and contentTypeId=#{contentTypeId} and contentId=#{contentId}
+    </delete>
+     <select id="reviewSelect" resultType="vo.LikeReVO"> 
+       select * from treview where contentTypeId=#{contentTypeId} and contentId=#{contentId}
+    </select>  
+     <select id="reviewCount" resultType="int"> 
+       select count(review) from treview where contentId=#{contentId}
+    </select>
+    <select id="reviewCheck" resultType="vo.LikeReVO"> 
+       select * from treview where id=#{id} and contentTypeId=#{contentTypeId} and contentId=#{contentId}
+    </select>  
+    <insert id="reviewInsert"> 
+       insert into treview values (#{id},#{contentTypeId},#{contentId},#{review},NOW())
+    </insert>  
+    <delete id="reviewDelete">
+    delete from treview where id=#{id} and contentTypeId=#{contentTypeId} and contentId=#{contentId}
+    </delete>
+    <update id="reviewUpdate">
+    update treview set review=#{review}, time=now() where  id=#{id} and contentTypeId=#{contentTypeId} and contentId=#{contentId}
+    </update>
+  </mapper>

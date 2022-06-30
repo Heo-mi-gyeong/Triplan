@@ -1,0 +1,60 @@
+.rowContainer{
+	display: flex;
+	flex-direction: row;
+}
+h2{
+	margin-top: 70px;	
+}
+#nav{
+	border:1px solid white;
+	display: flex;
+	flex-direction: column;
+	text-align:center;
+	width: 170px;
+	position: relative;
+	height:550px;
+}
+a{
+	text-decoration: none;
+	margin-top: 14px;
+}
+#nav a:before{
+	content: '';
+    position: absolute; 
+    background-color:#8E8DBE;
+    height: 3px;
+
+    width: 0; 
+    bottom: 0; 
+    transition: 0.7s; 
+    left: 50%;
+    transform: translateX(-50%) ;
+    top:42px;
+}
+#nav a{
+	height:15px;
+	margin:23px 25px;
+	color:dimgray;
+	font-size: 0.9em;
+	position:relative;
+	padding: 10px;
+}
+#nav a:hover{
+	color: #8E8DBE;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+#nav a:hover:before{
+	width:100%;
+}
+h2{
+	width:1190px;
+	height:50px;
+	font-weight: bold;
+}
+#lContainer{
+	width:100%;
+	display: flex;
+	justify-content: center;
+	
+}

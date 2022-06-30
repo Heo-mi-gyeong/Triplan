@@ -1,0 +1,93 @@
+* {
+	font-family: DM Sans;
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: whitesmoke;
+}
+.outer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#cImg {
+	width: 1200px;
+	height: 200px;
+	margin-top: 20px;
+}
+
+#header {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid silver;
+	top:0%;
+	background:rgba( 245, 245, 245, 0.9);
+	position: fixed;
+	z-index: 100;
+}
+
+.logo {
+	margin-left: 100px;
+}
+
+#logo {
+	width: 160px;
+	height: 50px;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
+#header_right {
+	display: flex;
+	align-items: center;
+}
+
+.search_bar {
+	display: flex;
+	align-items: center;
+	margin-right: 90px;
+	padding: 5px;
+	border: 1.5px solid white;
+	border-radius: 10px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#keyword {
+	width: 300px;
+	border: none;
+	outline: none;
+	background: transparent;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.headerI {
+	margin: 0 25px;
+	text-decoration: none;
+	color: black;
+	font-size: 0.9em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.headerI:hover {
+	cursor: pointer;
+	color: Thistle;
+}

@@ -1,0 +1,36 @@
+.container{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
+}
+h2{
+	width:1200px;
+	margin: 20px 0px;
+}
+#idname{
+	font-weight: bold;
+	font-size: 1.2rem;
+	color:gray;
+	margin: 10px 0px 20px 20px;
+}
+#rowContainer{
+	margin:0 auto;
+	display: flex;
+	width:1200px;
+	height:550px;
+	justify-content: center;
+}
+.rightImg{
+	width:600px;
+}
+#banner2{
+	margin-left:40px;
+	width:500px;
+	height:500px;
+	box-shadow: 30px 30px 0px silver;
+}
+#rowContainer form{
+	width:500px;
+}
