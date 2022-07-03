@@ -30,13 +30,13 @@
 	<div class="container2">
 		<div class="column" data-aos="fade-down" data-aos-duration="1000" >
 			<p>개발언어</p>
-			<div class="rowC">
+			<div>
 				<img src="https://images.velog.io/images/kjh950330/post/21fedf25-4178-47bd-9f2f-3d7b9eaa6070/JSP%EC%8D%B8%EB%84%A4%EC%9D%BC.png"
 				style="width:115px; height:80px;">
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
 				style="width:70px; height:85px;">
 				<img src="https://i2.wp.com/thebamboocode.com/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500"
-				style="width:115px; height:85px;">
+				style="width:105px; height:85px;">
 			</div>
 		</div>
 		<div class="column" data-aos="fade-up" data-aos-duration="1000" >
@@ -48,8 +48,12 @@
 	<div class="container2">
 		<div class="column" data-aos="fade-down" data-aos-duration="1000" >
 			<p>라이브러리</p>
-			<img  src="https://www.bypeople.com/wp-content/uploads/2016/06/animate-on-scroll-library.jpg"
-			style="width:110px; height:70px; margin-bottom: 10px">
+			<div>
+				<img  src="https://www.bypeople.com/wp-content/uploads/2016/06/animate-on-scroll-library.jpg"
+				style="width:110px; height:70px; margin-bottom: 10px">
+				<img  src="https://images.velog.io/images/sally40/post/1ab5c17d-c250-449c-b692-c34065d56084/jquery.gif"
+				style="width:80px; height:70px; margin-bottom: 10px">
+			</div>
 		</div>
 		<div class="column" data-aos="fade-up" data-aos-duration="1000" >
 			<p>사용  API</p>

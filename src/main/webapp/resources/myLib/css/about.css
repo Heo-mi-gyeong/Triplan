@@ -14,8 +14,9 @@ h1{
 	height:100px;
 	font-size:3rem;
 	color:white;
+	 -webkit-text-stroke: 1px indigo;
 	box-shadow:6px 6px 0px #ccc;
-	text-shadow: 5px 5px 2px indigo;
+	text-shadow: 5px 5px 1px indigo;
 	margin-top:10px;
 	margin-bottom: 90px; 
 	background: #8E8DBE;
@@ -72,6 +73,9 @@ b{
 	color:black;
 	text-shadow:2px 2px 2px #ccc;
 	margin-bottom: 10px;
+}
+.column div img{
+	margin: 0px 10px;
 }
 a img{
 	margin-top:-60px;

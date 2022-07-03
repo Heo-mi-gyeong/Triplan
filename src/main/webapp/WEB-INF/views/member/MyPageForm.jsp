@@ -9,6 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="resources/myLib/css/join.css">
 	<link rel="stylesheet" type="text/css" href="resources/myLib/css/mypage.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+	href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+	rel="stylesheet" />
 	<script src="resources/myLib/jquery-3.2.1.min.js"></script>
 	<script src="resources/myLib/js/update.js"></script>
 <title>My Page</title>

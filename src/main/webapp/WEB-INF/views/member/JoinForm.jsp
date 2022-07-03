@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="resources/myLib/css/nav.css">
 	<link rel="stylesheet" type="text/css" href="resources/myLib/css/header.css">
 	<link rel="stylesheet" type="text/css" href="resources/myLib/css/join.css">
+	<link
+	href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
+	rel="stylesheet" />
 	<script src="resources/myLib/jquery-3.2.1.min.js"></script>
 	<script src="resources/myLib/js/join.js"></script>
 <title>Join</title>
